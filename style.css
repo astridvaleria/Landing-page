@@ -1,0 +1,151 @@
+/*Esta sera la configuracion para todo el cuerpo de la pagina, tanto en la tipografia como en los bordes internos y externos de la pagina.*/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Esta es la configuracion de el encabezado de la pagina como su color de fondo, el color de la letra, la alineacion del texto, el tamaño de la letra y la distancia que tendra entre sus bordes internos y el porcentaje de cuanto cubrira el header en lo ancho de la pagina.*/
+header{
+    background-color: #163469;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1em;
+    padding: 1px; 
+    width: 100%;
+}
+
+
+
+
+/*nav: se refiere al navegador que es donde presionamos para llegar a una seccion especifica de la pagina. Se le hizo cambios en el color de fondo, la alineacion del texto, el espacio entre sus bordes internos y el porcentaje de cuanto cubrira el navegador en lo ancho de la pagina.*/
+nav{
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+
+
+/*Aqui se cambio el color de la letra especificamente a las "a" que es para un enlace que estan dentro del navegador, sus bordes internos y quitar la decoracion que traen los enlaces, por lo general, una raya bajo ellos.*/
+nav a{
+    color: black;
+    margin: 0px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+/*Es un tipo de subrayado que se le hace especificamente a los enlaces del navegador.*/
+nav a:hover{
+    background-color:#16145c;
+    color: white;
+    width: 100%;
+}
+
+/*Llamamos a la clase de logo para alinearlo*/
+.logo {
+    text-align: center;
+    
+}
+
+/* Lmamamos a la imagen dentro de esa clase para modificarla*/
+.logo img{
+    height: 80px;
+    width: 80px;
+    margin: 5px ;
+    padding: 5px ;
+}
+
+/*Estas son las secciones en las cuales va dentro toda la informacion de la pagina para que editarlas sea mas facil*/
+section{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/*El punto lo utilizamos para llamar una clase especifica que queremos editar, dentro de esta clase esta una imagen la cual se le puso un recuadro que tiene uin sombreado y a ese recuadro se le redondearon los bordes.*/
+.servicios{
+    box-shadow: 0 0 10px rgb(47, 87, 220);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+/*Aqui se le cambia la altura y ancho de esa clase en especifico.*/
+.servicios img{
+    height: 300px;
+    width: 500px;
+}
+
+
+/*Con esto estamos llamando a todos los h2 que tenga una seccion para que se les modifique el color.*/
+section h2{
+    color: #1d1a7c;
+}
+
+/*Con esto le damos un tipo de subrayado cada que el cursor pase por encima de todos los h2 de cada seccion.*/
+section h2:hover{
+    background-color: #16145c;
+    color: white;
+    padding: 5px;
+}
+
+/*Con esto llamamos a todas las p dentro de las secciones para que tengan un espaciado.*/
+section p{
+    padding: 0 0 30px;
+}
+
+/*Aqui llamamos a la clase para que ella, especificamente sea modificada, debido a que contiene imagenesencapsuladas en una caja invisible, se le da visibilidad y se le pone un sombreado con sus bordes redondeados.*/
+.testimonios  {
+    box-shadow: 0 0 10px rgb(47, 87, 220);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+
+
+
+/*Aqui le damos una modificacion a todas las imagenes, menos a la principal ya que a esa se le dio una modificacion especifica.*/
+img{
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+}
+
+/*Llamamos a la a dentro del identificador para poderla modificar a ella en especifico*/
+#contratanos a{
+    background-color: #16145c;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+
+
+}
+
+/*Y este es el pie de la pagina, la cual sera un recuadro con color de fondo, color de letra una tipografia diferente, tamaño, alineacion y el porcentaje de cuanto cubira ese recudro en el ancho de la pagina.*/
+footer{
+    background-color:#163469;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+    font-size: 20px;
+    width: 100%;
+}
+
+/* Asi llamamos a las a dentro del pie de la pagina para modificarla y quitarle la decoracion que traen los enlaces*/
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Con esto le damos un tipo de combreado cada que el cursor pase por todos los h4 dentro del pie de la pagina*/
+footer h4:hover{
+    background-color: #3152d5;
+    color: aliceblue;
+    padding: 5px;
+}
